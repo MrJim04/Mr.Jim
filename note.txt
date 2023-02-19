@@ -1,0 +1,70 @@
+AMCharts : Charts
+Grid.js : Table
+Impress.js : Presentation
+GreenSock : Animation
+Lax.js : Scroll Animation
+Three.js : 3D
+Chocolat.js : Lightbox
+Tilt.js : Tilt
+Particles.js : Particles
+Lightbox2 : Viewing Image
+Barba.js : Transition
+swiper.js : Slider
+Granim.js : Gradient
+Vivus : Animate SVG
+Typed.js : Typing Animation
+Progress Bar Js : Progress Bar
+AniJs: Animation Without Code
+Remotion: Make Video
+Flaticon: Icon
+
+
+----------------
+Baby Blue
+#d6e2e8
+
+Aquamarine
+#91c1d8
+
+Blue Grotto
+#0070ac
+
+Navy Blue
+#003371
+----------------
+
+----------------
+Navy Blue
+#1f3541
+
+Blue Grotto
+#5289b5
+
+Baby Blue
+#afd8f2
+
+White
+#edf2f3
+---------------
+
+---------------
+Aquamarine
+#75b7d0
+
+Navy Blue
+#263f60
+
+Lint
+#e4ebe0
+
+Blue
+#3982b0
+--------------
+
+Media Queries
+
+    320px — 480px: Mobile devices
+    481px — 768px: iPads, Tablets
+    769px — 1024px: Small screens, laptops
+    1025px — 1200px: Desktops, large screens
+    1201px and more —  Extra large screens, TV

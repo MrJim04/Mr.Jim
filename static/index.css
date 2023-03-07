@@ -10,7 +10,7 @@ body {
 }
 
 section {
-  padding: 50px 0;
+  padding: 100px 0;
   text-align: center;
 }
 
@@ -24,17 +24,17 @@ section {
 .navbar {
   position: fixed;
   width: 100%;
-  padding: 10px 5rem;
+  padding: 25px 5rem;
   background-color: #263f60;
   z-index: 50;
 }
 
 .navbar .name {
+  color: #FFFFFF;
   display: inline-block;
   text-transform: uppercase;
   font-size: 25px;
-  color: #FFFFFF;
-  font-weight: 800;
+  font-weight: 500;
   font-style: italic;
 }
 
@@ -47,18 +47,21 @@ header {
 }
 */
 
-#mountain {
-  position: relative;
-  display: block;
+.header {
+  background-image: url("../static/image/mountain.jpg");
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 100%;
-  height: 500px;
+  height: 700px;
   z-index: 1;
 }
 
 .header .contents {
   text-align: center;
   position: absolute;
-  top: 12rem;
+  top: 18.5rem;
   left: 5rem;
   z-index: 2;
 }
@@ -93,16 +96,17 @@ header {
 }
 
 .features {
-  color: #000000;
+  color: #FFFFFF;
   display: flex;
   flex-wrap: wrap;
 }
 
 .features .feature {
-  background-color: #FFFFFF;
+  background-color: #3f5679;
   padding:  50px;
   margin: 10px 30px;
   font-size: 25px;
+  font-weight: bold;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   flex: 1;
   flex-shrink: 1;
@@ -110,7 +114,7 @@ header {
 }
 
 .features .feature .label {
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .features .feature i {
@@ -119,13 +123,12 @@ header {
 
 .features .feature:hover {
   transition: 0.1s;
-  box-shadow: 0 4px 8px 0 rgba(82, 137, 181, 0.2), 0 6px 20px 0 rgba(82, 137, 181, 0.19);
   padding: 60px;
   margin: 5px 25px;
 }
 
 .quote {
-  background-color: #5289b5;
+  background-color: #263f60;
   color: #FFFFFF;
 }
 
@@ -146,7 +149,7 @@ header {
 .footer {
   background-color: #1f3541;
   color: #868686;
-  padding: 30px 0 4px 0;
+  padding: 60px;
   text-align: center;
 }
 
@@ -168,7 +171,9 @@ header {
 }
 
 .footer .copyright {
-  padding: 25px 0 0 0;
+  font-size: 14px;
+  position: relative;
+  top: 60px;
 }
 
 .footer .lists .list .link:hover {

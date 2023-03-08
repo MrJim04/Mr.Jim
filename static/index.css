@@ -38,6 +38,24 @@ section {
   font-style: italic;
 }
 
+.navbar .sideName {
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: italic;
+  width: 82%;
+  text-align: right;
+}
+
+.navbar .back {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: 500;
+  display: inline;
+  
+}
+
 /*
 header {
   color: #FFFFFF;
@@ -183,9 +201,22 @@ header {
 @media screen and (max-width: 480px) {
     
     .navbar {
-      padding: 10px 1rem;
+      padding: 10px 2rem;
+    }
+    
+    .navbar .name {
+      font-size: 15px;
+    }
+    
+    .navbar .sideName {
+      font-size: 15px;
+      width: 78%;
     }
 
+    .navbar .back {
+      font-size: 15px
+    }
+    
     .header .contents {
       left: 2.9rem;
     }
